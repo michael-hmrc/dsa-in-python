@@ -1,0 +1,122 @@
+To prepare for technical interviews at top tech companies (often referred to as FAANG: Facebook, Amazon, Apple, Netflix, and Google), you'll need a strong foundation in both algorithms and data structures. Here's a comprehensive list of topics you should focus on:
+
+Data Structures
+Arrays and Strings
+
+Basic operations (insertion, deletion, traversal)
+Two-pointer techniques
+Sliding window techniques
+String manipulation and parsing
+Linked Lists
+
+Single linked list
+Doubly linked list
+Circular linked list
+Operations (insertion, deletion, reversal)
+Stacks and Queues
+
+Implementation using arrays and linked lists
+Common operations
+Applications (e.g., expression evaluation, backtracking)
+Hash Tables
+
+Implementation concepts (hash functions, handling collisions)
+Operations (insert, delete, search)
+Applications (e.g., counting frequencies, caching)
+Trees
+
+Binary trees
+Binary search trees (BST)
+AVL trees, Red-Black trees
+Trie (prefix tree)
+Segment tree, Fenwick tree (binary indexed tree)
+Heaps
+
+Min-heap, Max-heap
+Heap operations (insert, delete, extract-min/max)
+Priority queue implementation
+Graphs
+
+Representations (adjacency list, adjacency matrix)
+Traversal algorithms (BFS, DFS)
+Shortest path algorithms (Dijkstra's, Bellman-Ford)
+Minimum spanning tree (Kruskal's, Prim's)
+Topological sorting
+Advanced Data Structures
+
+Union-Find (Disjoint Set)
+Balanced trees (e.g., AVL, Red-Black trees)
+Suffix trees and arrays
+Algorithms
+Sorting and Searching
+
+Basic sorting algorithms (bubble sort, selection sort, insertion sort)
+Efficient sorting algorithms (merge sort, quick sort, heap sort)
+Searching algorithms (binary search, interpolation search)
+Dynamic Programming
+
+Principles (memoization, tabulation)
+Classic problems (knapsack, longest common subsequence, Fibonacci)
+Optimization techniques (space optimization)
+Greedy Algorithms
+
+Principles and problem-solving approach
+Classic problems (activity selection, Huffman coding, Kruskal's MST)
+Backtracking
+
+Problem-solving approach
+Classic problems (N-queens, sudoku, permutations)
+Graph Algorithms
+
+BFS, DFS
+Shortest path algorithms (Dijkstra's, Bellman-Ford, Floyd-Warshall)
+Minimum spanning tree (Kruskal's, Prim's)
+Network flow (Ford-Fulkerson, Edmonds-Karp)
+String Algorithms
+
+String matching algorithms (KMP, Rabin-Karp)
+Suffix trees and arrays
+Trie-based problems
+Mathematical Algorithms
+
+Number theory (GCD, LCM, prime factorization, modular arithmetic)
+Combinatorics (permutations, combinations)
+Probability and statistics basics
+Additional Topics
+Bit Manipulation
+
+Bitwise operations
+Common bit manipulation tricks
+Concurrency
+
+Basics of multithreading
+Synchronization techniques (locks, semaphores)
+System Design
+
+Designing scalable systems
+Understanding of databases, distributed systems, load balancing
+CAP theorem, consistency and availability patterns
+Learning Resources
+Books
+
+"Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein (CLRS)
+"Algorithm Design Manual" by Steven Skiena
+"Cracking the Coding Interview" by Gayle Laakmann McDowell
+"Elements of Programming Interviews" by Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash
+Online Platforms
+
+LeetCode
+HackerRank
+CodeSignal
+InterviewBit
+GeeksforGeeks
+Courses
+
+"Algorithms, Part I and II" by Princeton University on Coursera
+"Data Structures and Algorithms" by Stanford University on Coursera
+"Grokking the Coding Interview" on Educative.io
+Practice
+
+Solve problems on platforms like LeetCode, HackerRank, and CodeSignal regularly.
+Participate in coding competitions on Codeforces, TopCoder, and LeetCode Contests.
+By mastering these data structures and algorithms and practicing extensively, you'll be well-prepared for FAANG interviews and other top tech companies.
