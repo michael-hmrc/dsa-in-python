@@ -1,4 +1,4 @@
-from two-pointers import two_sum
+from two_pointers import two_sum
 
 if __name__ == "__main__":
     # Example usage:
