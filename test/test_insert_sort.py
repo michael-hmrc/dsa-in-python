@@ -1,7 +1,6 @@
 import unittest
 
-from src.insert_sort import insertion_sort
-
+from sorting_algorithms.insert_sort import insertion_sort
 
 class TestInsertionSpec(unittest.TestCase):
 

@@ -1,0 +1,11 @@
+Two-pointer techniques are algorithms that involve using two pointers (or indices) to solve problems more efficiently,
+typically in linear time 𝑂(𝑛) O(n) where 𝑛 is the size of the input. These techniques are often used for solving problems
+related to arrays or linked lists where you need to find a solution satisfying certain conditions,
+such as finding pairs that sum up to a target, finding a subarray with a given sum, or detecting cycles.
+
+Types of Two-Pointer Techniques
+Two Pointers (Left and Right pointers): This technique involves using two pointers starting from opposite ends of the array
+ (or list) and moving them toward each other based on certain conditions.
+
+Fast and Slow Pointers: This technique is useful for problems involving cycle detection or finding a midpoint.
+The "fast" pointer moves faster (e.g., by two steps) than the "slow" pointer, which moves one step at a time.

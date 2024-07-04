@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='your_project',
+    name='algorithms',
     version='0.1',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
@@ -13,7 +13,7 @@ setup(
         'pytest',  # or 'unittest', if you prefer
         # 'unittest',  # or 'unittest', if you prefer
     ],
-    test_suite='tests',
+    test_suite='test',
     entry_points={
         'console_scripts': [
             # Define command-line scripts here.

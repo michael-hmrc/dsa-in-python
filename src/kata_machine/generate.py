@@ -54,7 +54,7 @@
 #
 # if __name__ == '__main__':
 #
-#     base_dir = 'kata-machine'
+#     base_dir = 'kata_machine'
 #     new_folder = create_new_folder(base_dir)
 #
 #     # generate_code(new_folder)
@@ -75,7 +75,7 @@
 #                   'tests'
 #                   )
 #
-# TODO ------------------------------------------------------------------------ fix the code generation for the kata-machine
+# TODO ------------------------------------------------------------------------ fix the code generation for the kata_machine
 
 # import os
 # from mako.template import Template
