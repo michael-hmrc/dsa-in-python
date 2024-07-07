@@ -28,7 +28,7 @@ def test_two_sum_larger_no_solution():
 def test_two_sum_negative():
     nums = [-3, 5, -2, 8, -6, 11, 4, -1, 7, 9]
     target = 3
-    assert two_sum(nums, target) == [1, 6]
+    assert two_sum(nums, target) == [1, 2]
 
 
 # Test case 5: Edge case - Empty list
