@@ -9,6 +9,12 @@ def factorial(n: int) -> int:
 
 
 
+
+
+
 if __name__ == "__main__":
     print("Hello World")
     print(factorial(5))
+    print(5 * 4 * 3 * 2 * 1)
+
+
