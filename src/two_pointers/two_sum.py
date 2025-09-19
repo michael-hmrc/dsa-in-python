@@ -1,10 +1,8 @@
-
 def two_sum(nums, target):
 
     # we use a dictionary here to store the complement of each number and its index
 
     num_map = {}
-
 
     for i, num in enumerate(nums):
         complement = target - num

@@ -2,7 +2,7 @@ from collections import deque
 from typing import Any
 
 
-class Node():
+class Node:
     def __init__(self, value):
         self.value = value
         self.neighbours = []
@@ -43,15 +43,14 @@ if __name__ == "__main__":
     node2.add_neighbour(node5)
     node3.add_neighbour(node6)
 
-
     # Creating nodes
-    nodeA = Node('A')
-    nodeB = Node('B')
-    nodeC = Node('C')
-    nodeD = Node('D')
-    nodeE = Node('E')
-    nodeF = Node('F')
-    nodeG = Node('G')
+    nodeA = Node("A")
+    nodeB = Node("B")
+    nodeC = Node("C")
+    nodeD = Node("D")
+    nodeE = Node("E")
+    nodeF = Node("F")
+    nodeG = Node("G")
 
     # Adding neighbors
 

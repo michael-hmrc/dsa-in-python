@@ -35,5 +35,4 @@ if __name__ == "__main__":
         for elem in array:
             print(elem)
 
-
     print_out_each_elem(arr)

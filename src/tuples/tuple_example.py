@@ -13,14 +13,14 @@ t3: Tuple[int, int, int] = (1, 2, 3)
 t4: Tuple[int] = (5,)
 
 # This is just an int
-not_tuple: int = (5)
+not_tuple: int = 5
 
 # 4 integers
 t: Tuple[int, int, int, int] = (10, 20, 30, 40)
 
-print(t[0])   # 10
+print(t[0])  # 10
 print(t[-1])  # 40
-print(t[1:3]) # (20, 30) → slicing returns Tuple[int, int]
+print(t[1:3])  # (20, 30) → slicing returns Tuple[int, int]
 
 # Tuple unpacking
 point: Tuple[int, int] = (3, 4)

@@ -1,6 +1,8 @@
 import pytest
 
-from two_pointers.two_sum import two_sum  # Assuming two_sum function is implemented in a separate module
+from two_pointers.two_sum import (
+    two_sum,
+)  # Assuming two_sum function is implemented in a separate module
 
 
 # Test case 1: Simple case with positive numbers

@@ -10,13 +10,10 @@ if __name__ == "__main__":
     option_five: Option = Option(5)
 
     program = (
-        option_five
-        .map(lambda x: x + 1)
-        .flat_map(lambda x: Option(x + 1))
+        option_five.map(lambda x: x + 1).flat_map(lambda x: Option(x + 1))
         # .filter(lambda x: x == 1)
         .get_or_else(0)
     )
-
 
     def matching() -> str:
         match option_five:
@@ -25,24 +22,41 @@ if __name__ == "__main__":
             case None:
                 return "nothing"
 
-
     print(option_five.get_or_else(0))
 
     # Some more function examples using, filter, foldleft,  map etc.
 
     #  all functions can take a named method like def is_even or a lambda function
 
-mixed_list = [1, "a", 2, "b", 3, "c", 4, "d", 5, "e", 6, "f", 7, "g", 8, "h", 9, "i", 10]
+mixed_list = [
+    1,
+    "a",
+    2,
+    "b",
+    3,
+    "c",
+    4,
+    "d",
+    5,
+    "e",
+    6,
+    "f",
+    7,
+    "g",
+    8,
+    "h",
+    9,
+    "i",
+    10,
+]
 
 # filter only ints
-only_int_list = (
-    PyfunList(mixed_list)
-    .filter(lambda x: isinstance(x, int))
-)
+only_int_list = PyfunList(mixed_list).filter(lambda x: isinstance(x, int))
 
 print(only_int_list.to_list())
 
 # filter only strings
+
 
 def create_sentence():
     chars = []
@@ -51,6 +65,7 @@ def create_sentence():
             chars.append(elem.capitalize())
 
     return "".join(chars)
+
 
 import time
 

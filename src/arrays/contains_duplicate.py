@@ -1,5 +1,6 @@
 from typing import List
 
+
 # Brute force
 # Time complexity: O(n²)
 # Space complexity: O(1)
@@ -39,25 +40,27 @@ def contains_duplicate_set(nums: List[int]) -> bool:
 if __name__ == "__main__":
 
     test_cases: list[list[int]] = [
-        [1, 2, 3, 1],   # should return True
-        [1, 2, 3, 4],   # should return False
-        [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]  # should return True
+        [1, 2, 3, 1],  # should return True
+        [1, 2, 3, 4],  # should return False
+        [1, 1, 1, 3, 3, 4, 3, 2, 4, 2],  # should return True
     ]
 
     test_cases: List[List[int]] = [
-        [1, 2, 3, 1],   # should return True
-        [1, 2, 3, 4],   # should return False
-        [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]  # should return True
+        [1, 2, 3, 1],  # should return True
+        [1, 2, 3, 4],  # should return False
+        [1, 1, 1, 3, 3, 4, 3, 2, 4, 2],  # should return True
     ]
 
     print("Testing Brute Force:")
     for nums in test_cases:
-        print(nums, "=>", contains_duplicate_bruteforce(nums[:]))  # use nums[:] to not affect sorting
-    
+        print(
+            nums, "=>", contains_duplicate_bruteforce(nums[:])
+        )  # use nums[:] to not affect sorting
+
     print("\nTesting Sorting:")
     for nums in test_cases:
         print(nums, "=>", contains_duplicate_sort(nums[:]))
-    
+
     print("\nTesting HashSet:")
     for nums in test_cases:
         print(nums, "=>", contains_duplicate_set(nums[:]))

@@ -2,7 +2,8 @@ import pytest
 
 from sorting_algorithms.insert_sort import insertion_sort
 
-class TestInsertionSpec():
+
+class TestInsertionSpec:
 
     def test_sorted_array(self) -> None:
         # print(insertion_sort([1, 2, 3, 4, 5]))

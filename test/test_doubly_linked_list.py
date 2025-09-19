@@ -1,6 +1,9 @@
 import pytest
 
-from linked_lists.doubly_linked_list import DoublyLinkedList, Node  # Import your classes
+from linked_lists.doubly_linked_list import (
+    DoublyLinkedList,
+    Node,
+)  # Import your classes
 
 
 # Test cases for the DoublyLinkedList class

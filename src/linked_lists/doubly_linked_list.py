@@ -6,6 +6,7 @@
 # Example: 1 <-> 2 <-> 3
 # pointers in both directions.
 
+
 class Node:
 
     def __init__(self, data):
