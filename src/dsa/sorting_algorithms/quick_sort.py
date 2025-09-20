@@ -1,5 +1,6 @@
 from typing import List
 
+
 def quick_sort(arr: List[int]) -> List[int]:
     if len(arr) <= 1:
         return arr
@@ -12,7 +13,7 @@ def quick_sort(arr: List[int]) -> List[int]:
     return quick_sort(left) + middle + quick_sort(right)
 
 
-def partition(arr: list[int], low: int, high:int):
+def partition(arr: list[int], low: int, high: int):
     pivot = arr[high]
     i = low - 1
     for j in range(low, high):

@@ -1,4 +1,0 @@
-kata-machine
-sorting-algorithms
-trees
-two-pointers
