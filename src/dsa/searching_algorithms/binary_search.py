@@ -1,10 +1,10 @@
-#  we are halving here so likely - log n
+# #  we are halving here so likely - log n
 
-# So worst-case time = O(log n)
-# So best-case time = O(1) - immediate found mid as the solve
+# # So worst-case time = O(log n)
+# # So best-case time = O(1) - immediate found mid as the solve
 
-# Your iterative version only uses a few extra variables (low, high, mid) → O(1) space.
-# A recursive version would use the call stack, so O(log n) space.
+# # Your iterative version only uses a few extra variables (low, high, mid) → O(1) space.
+# # A recursive version would use the call stack, so O(log n) space.
 
 
 def binary_search(arr: list[int], target: int) -> int:
