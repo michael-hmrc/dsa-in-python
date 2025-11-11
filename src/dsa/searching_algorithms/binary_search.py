@@ -7,22 +7,25 @@
 # # A recursive version would use the call stack, so O(log n) space.
 
 
-def binary_search(arr: list[int], target: int) -> int:
+
+def binary_search(arr:list[int], target: int) -> int:
+    
     if len(arr) == 0:
         return -1
-
+    
     low: int = 0
-    high: int = len(arr) - 1
-
+    high: int = len(arr) -1
+    
     while low <= high:
-        mid: int = (low + high) // 2  # recalc each loop
-        if arr[mid] == target:
+        mid: int = (low + high) // 2
+        if target == arr[mid]:
             return mid
         if target < arr[mid]:
-            high = mid - 1.0  # search left half
+            high = mid - 1.0
         if target > arr[mid]:
-            low = mid + 1.0  # search right half
-
+            low = mid + 1.0
+            
+    
 
 if __name__ == "__main__":
 
