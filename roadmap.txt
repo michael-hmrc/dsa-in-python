@@ -1,0 +1,15 @@
+| Category                     | Key Concepts                                  |
+| ---------------------------- | --------------------------------------------- |
+| **Arrays & Strings**         | Sliding window, two pointers, prefix sums     |
+| **Linked Lists**             | Fast/slow pointers, reversal, cycle detection |
+| **Stacks & Queues**          | Monotonic stack, BFS, recursion stack         |
+| **Hashing**                  | Maps, sets, frequency counting                |
+| **Trees**                    | DFS, BFS, recursion, binary search tree logic |
+| **Heaps/Priority Queues**    | Top K problems, scheduling                    |
+| **Graphs**                   | DFS/BFS, shortest paths, union-find           |
+| **Dynamic Programming**      | Knapsack, subsequences, memoization           |
+| **Recursion & Backtracking** | Permutations, combinations, N-Queens          |
+| **Binary Search**            | On arrays and on answers                      |
+| **Sorting & Greedy**         | Custom sorting, intervals, merging            |
+
+
