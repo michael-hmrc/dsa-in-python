@@ -11,7 +11,6 @@ def is_palindrome(s: str) -> bool:
         right -= 1
     return True        
 
-
 if __name__ == "__main__":
     
     palindrome_string = "racecar"

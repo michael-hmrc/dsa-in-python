@@ -1,5 +1,7 @@
 # Remove Duplicates from a Sorted List (Return New Length)
 # This uses two pointers moving forward.
+# slow and fast pointer - slow == write, fast == read
+# one read, one write pointer
 
 def remove_duplicates(nums):
     if not nums:
