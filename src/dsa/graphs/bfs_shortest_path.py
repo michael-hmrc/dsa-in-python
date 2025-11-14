@@ -7,7 +7,7 @@ graph = {
     3: [0, 2]
 }
 
-def shortest_path(start, target):
+def bfs_shortest_path(start, target):
 
     queue = deque([(start, 0)])  # (node, distance)
     visited = {start}
@@ -24,3 +24,6 @@ def shortest_path(start, target):
                 queue.append((nei, dist + 1))
 
     return -1
+
+if __name__ == "__main__":
+    print(bfs_shortest_path(0)) 
