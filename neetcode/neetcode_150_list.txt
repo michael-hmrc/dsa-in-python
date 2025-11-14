@@ -1,0 +1,206 @@
+NEETCODE 150 PROBLEM LIST
+=========================
+
+1. ARRAYS & HASHING (16)
+------------------------
+1. Contains Duplicate
+2. Valid Anagram
+3. Two Sum
+4. Group Anagrams
+5. Top K Frequent Elements
+6. Product of Array Except Self
+7. Encode and Decode Strings
+8. Longest Consecutive Sequence
+9. Replace Elements with Greatest Element on Right Side
+10. Valid Sudoku
+11. Largest Number
+12. Maximum Subarray
+13. Maximum Product Subarray
+14. Find Minimum in Rotated Sorted Array
+15. Search in Rotated Sorted Array
+16. 3Sum
+
+2. TWO POINTERS (5)
+-------------------
+17. Valid Palindrome
+18. Two Sum II (Input Array is Sorted)
+19. 3Sum
+20. Container With Most Water
+21. Trapping Rain Water
+
+3. SLIDING WINDOW (6)
+---------------------
+22. Best Time to Buy and Sell Stock
+23. Longest Substring Without Repeating Characters
+24. Longest Repeating Character Replacement
+25. Minimum Window Substring
+26. Sliding Window Maximum
+27. Max Consecutive Ones III
+
+4. STACK (7)
+------------
+28. Valid Parentheses
+29. Min Stack
+30. Evaluate Reverse Polish Notation
+31. Generate Parentheses
+32. Daily Temperatures
+33. Car Fleet
+34. Largest Rectangle in Histogram
+
+5. BINARY SEARCH (7)
+--------------------
+35. Binary Search
+36. Search a 2D Matrix
+37. Koko Eating Bananas
+38. Find Minimum in Rotated Sorted Array
+39. Search in Rotated Sorted Array
+40. Time Based Key-Value Store
+41. Median of Two Sorted Arrays
+
+6. LINKED LIST (9)
+------------------
+42. Reverse Linked List
+43. Merge Two Sorted Lists
+44. Reorder List
+45. Remove Nth Node From End of List
+46. Copy List With Random Pointer
+47. Add Two Numbers
+48. Linked List Cycle
+49. Find the Duplicate Number
+50. LRU Cache
+
+7. TREES (15)
+-------------
+51. Invert Binary Tree
+52. Maximum Depth of Binary Tree
+53. Diameter of Binary Tree
+54. Balanced Binary Tree
+55. Same Tree
+56. Subtree of Another Tree
+57. Lowest Common Ancestor of a BST
+58. Binary Tree Level Order Traversal
+59. Binary Tree Right Side View
+60. Count Good Nodes in Binary Tree
+61. Validate Binary Search Tree
+62. Kth Smallest Element in a BST
+63. Construct Binary Tree from Preorder and Inorder Traversal
+64. Binary Tree Maximum Path Sum
+65. Serialize and Deserialize Binary Tree
+
+8. TRIES (3)
+------------
+66. Implement Trie (Prefix Tree)
+67. Design Add and Search Words Data Structure
+68. Word Search II
+
+9. HEAP / PRIORITY QUEUE (7)
+----------------------------
+69. Kth Largest Element in a Stream
+70. Last Stone Standing
+71. K Closest Points to Origin
+72. Kth Largest Element in an Array
+73. Task Scheduler
+74. Design Twitter
+75. Merge K Sorted Lists
+
+10. BACKTRACKING (9)
+--------------------
+76. Subsets
+77. Combination Sum
+78. Permutations
+79. Subsets II
+80. Combination Sum II
+81. Word Search
+82. Palindrome Partitioning
+83. Letter Combinations of a Phone Number
+84. N-Queens
+
+11. GRAPHS (13)
+---------------
+85. Number of Islands
+86. Max Area of Island
+87. Clone Graph
+88. Pacific Atlantic Water Flow
+89. Surrounded Regions
+90. Rotting Oranges
+91. Walls and Gates
+92. Course Schedule
+93. Course Schedule II
+94. Redundant Connection
+95. Number of Connected Components in an Undirected Graph
+96. Graph Valid Tree
+97. Word Ladder
+
+12. ADVANCED GRAPHS (6)
+------------------------
+98. Network Delay Time
+99. Minimum Height Trees
+100. Swim in Rising Water
+101. Cheapest Flights Within K Stops
+102. Shortest Path in Binary Matrix
+103. Alien Dictionary
+
+13. DYNAMIC PROGRAMMING (21)
+----------------------------
+104. Climbing Stairs
+105. Min Cost Climbing Stairs
+106. House Robber
+107. House Robber II
+108. Longest Palindromic Substring
+109. Palindromic Substrings
+110. Decode Ways
+111. Coin Change
+112. Maximum Product Subset
+113. Longest Increasing Subsequence
+114. Longest Common Subsequence
+115. Edit Distance
+116. Target Sum
+117. Interleaving String
+118. Unique Paths
+119. Longest Increasing Path in a Matrix
+120. Distinct Subsequences
+121. Best Time to Buy and Sell Stock with Cooldown
+122. Coin Change II
+123. Partition Equal Subset Sum
+124. Maximum Sum Circular Subarray
+125. Shortest Common Supersequence
+
+14. GREEDY (7)
+--------------
+126. Maximum Subarray
+127. Jump Game
+128. Jump Game II
+129. Gas Station
+130. Candy
+131. Insert Interval
+132. Merge Intervals
+
+15. INTERVALS (6)
+-----------------
+133. Meeting Rooms
+134. Meeting Rooms II
+135. Non-overlapping Intervals
+136. Minimum Interval to Include Each Query
+137. Summary Ranges
+138. Find Right Interval
+
+16. BIT MANIPULATION (4)
+------------------------
+139. Single Number
+140. Number of 1 Bits
+141. Counting Bits
+142. Reverse Bits
+
+17. MATH & GEOMETRY (3)
+-----------------------
+143. Rotate Image
+144. Spiral Matrix
+145. Set Matrix Zeroes
+
+18. DESIGN (5)
+--------------
+146. Insert Delete GetRandom O(1)
+147. Encode and Decode TinyURL
+148. Design HashMap
+149. Design Browser History
+150. Design Tic-Tac-Toe
