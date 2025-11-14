@@ -1,7 +1,11 @@
 
 # Variable sliding window
 
+# Longest Substring Without Repeating Characters (Sliding Window)
+# Fast expands window, slow shrinks it.
+
 def length_of_longest_substring(string: str) -> int:
+    
     seen = set()
     left = 0
     max_len = 0

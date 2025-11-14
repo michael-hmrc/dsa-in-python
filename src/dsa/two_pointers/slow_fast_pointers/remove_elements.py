@@ -1,4 +1,6 @@
 
+# LeetCode 27
+
 def remove_elements(arr: list[int], val:int) -> list[int]:
     
     slow = 0
