@@ -61,4 +61,4 @@ def dfs(node):
 
 
 if __name__ == "__main__":
-    print(dfs(0))
+    dfs(0)              # our dfs example already has print statement
