@@ -33,8 +33,8 @@
 
 
 def maxProfit(prices):
+    
     min_price = float('inf') 
-
     max_profit = 0           
 
     for day, price in enumerate(prices):
