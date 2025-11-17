@@ -18,12 +18,14 @@ not_tuple: int = 5
 # 4 integers
 t: Tuple[int, int, int, int] = (10, 20, 30, 40)
 
-print(t[0])  # 10
-print(t[-1])  # 40
-print(t[1:3])  # (20, 30) → slicing returns Tuple[int, int]
 
-# Tuple unpacking
-point: Tuple[int, int] = (3, 4)
-x, y = point
-print(x)  # 3
-print(y)  # 4
+if __name__ == "__main__":
+    print(t[0])  # 10
+    print(t[-1])  # 40
+    print(t[1:3])  # (20, 30) → slicing returns Tuple[int, int]
+
+    # Tuple unpacking
+    point: Tuple[int, int] = (3, 4)
+    x, y = point
+    print(x)  # 3
+    print(y)  # 4
