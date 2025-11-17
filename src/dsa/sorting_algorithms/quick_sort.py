@@ -1,28 +1,37 @@
 from typing import List
-    
-#   Simple functional (non-in-place) implementation of QuickSort.
-#   Returns a new sorted list.
-    
+
+# -------------------------------------------------------------
+# 🧠 QuickSort (Functional, Non-In-Place)
+#
+# Big-O Complexity:
+#   • Average Time:  O(n log n)
+#   • Best Time:     O(n log n)
+#   • Worst Time:    O(n²)        <-- happens with bad pivot choices
+#
+#   • Space:         O(n)         <-- because we create new lists
+#
+# Notes:
+#   - This is the simple "functional" style QuickSort.
+#   - Not in-place: left/middle/right lists allocate new memory.
+#   - Very clean and readable, great for learning.
+#   - Pivot choice affects performance (middle is usually good).
+# -------------------------------------------------------------
+
 def quick_sort(arr: List[int]) -> List[int]:
 
     if len(arr) <= 1:
         return arr
 
-    # Choose a pivot (here we use the middle element for balance)
     pivot = arr[len(arr) // 2]
 
-    # Partition into three lists:
-    # - left: elements smaller than pivot
-    # - middle: elements equal to pivot
-    # - right: elements greater than pivot
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
 
-    # Recursively sort left and right partitions
     return quick_sort(left) + middle + quick_sort(right)
 
 
+# Duplicate version (same Big-O applies)
 def quick_sort(arr: list[int]) -> list[int]:
 
     if len(arr) <= 1:
