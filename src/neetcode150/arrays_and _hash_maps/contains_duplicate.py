@@ -1,15 +1,19 @@
-class ContainsDuplicate:
-    def containsDuplicate(self, nums: list[int]) -> bool:
-        seen = set()
-        for n in nums:
-            if n in seen:
-                return True
-            seen.add(n)
-        return False
+# LeetCode 217 — Contains Duplicate
+# Question:
+# Given an integer array nums, return True if any value appears at least twice
+# in the array. Return False if every element is distinct.
 
-            
+def contains_duplicate(nums: list[int]) -> bool:
+    seen = set()            # we use the set to store numbers we've seen previously
+    
+    for n in nums:          # loop through each number 
+        if n in seen:       # conditional to check if we've seen this number before
+            return True     # duplicate found
+        seen.add(n)         # store the number in the set
+    return False            # no duplicates found
+        
+
 if __name__ == "__main__":
-    solution = ContainsDuplicate()
+
     nums = [1, 2, 3, 1]
-    # print(solution.containsDuplicate(nums))  # should print True
-    print(solution.containsDuplicate2(nums))  # should print True
+    print(contains_duplicate(nums))  # should print True
