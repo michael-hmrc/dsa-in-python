@@ -8,8 +8,9 @@ class Node:
         self.right = None
 
 
-def bfs(root):
-    if not root:
+def bfs(node):
+
+    if not node:
         return []
 
     result = []
@@ -18,17 +19,15 @@ def bfs(root):
     while queue:
         node = queue.popleft()
         result.append(node.val)
-
         if node.left:
             queue.append(node.left)
         if node.right:
             queue.append(node.right)
-
     return result
 
 
 if __name__ == "__main__":
-    
+
     # Build sample tree:
     #       1
     #      / \
@@ -42,4 +41,4 @@ if __name__ == "__main__":
     root.left.left = Node(4)
     root.left.right = Node(5)
 
-    print(bfs(root))
+    print(bfs(root))            #     [1, 2, 3, 4, 5]
