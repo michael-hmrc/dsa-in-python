@@ -1,0 +1,17 @@
+Traversal Notes
+
+Traversal: Preorder (DFS)
+Type: Root → Left → Right
+Used For: Copying a tree, prefix expressions
+
+Traversal: Inorder (DFS)
+Type: Left → Root → Right
+Used For: Sorted traversal of BSTs
+
+Traversal: Postorder (DFS)
+Type: Left → Right → Root
+Used For: Deleting a tree
+
+Traversal: BFS (Level Order)
+Type: Level by level
+Used For: Shortest path, level-based problems
