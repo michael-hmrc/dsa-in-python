@@ -4,6 +4,8 @@ from typing import List
 #   Moves elements smaller than pivot to the left.
 #   Returns the index where the pivot finally lies.
     
+import time    
+    
 def partition(arr: List[int], low: int, high: int) -> int:
 
     pivot = arr[high]  # choose the last element as pivot
@@ -26,6 +28,12 @@ def quick_sort_in_place(arr: List[int], low: int, high: int) -> None:
         quick_sort_in_place(arr, pivot_index + 1, high)
 
 if __name__ == "__main__":
-    arr = [3, 6, 2, 8, 5, 1]
-    quick_sort_in_place(arr, 0, len(arr) - 1)
-    print("In-place QuickSort:  ", arr)
+    
+    arr = [66, 22, 11, 33, 99, 77, 55, 88, 0]
+    
+    start = time.time()                                     # record the start time
+    result = quick_sort_in_place(arr, 0, len(arr) - 1)      # run your function
+    end = time.time()                                       # record the end time
+
+    print("Sorted: ", result)
+    print(f"Time Taken: {end - start:.6f} seconds")
