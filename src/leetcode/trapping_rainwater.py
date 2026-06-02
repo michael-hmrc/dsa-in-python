@@ -120,81 +120,26 @@ def trapping_rainwater_v1(height: list[int]) -> int:
 #
 
 def trapping_rainwater_v2(height: list[int]) -> int:
-    # Start one pointer at the left side
+    
     left = 0
-
-    # Start one pointer at the right side
     right = len(height) - 1
-
-    # Highest wall we have seen so far from the left
     left_max = 0
-
-    # Highest wall we have seen so far from the right
     right_max = 0
-
-    # The final answer
     total_water = 0
 
     # Keep moving inward until the two pointers meet
     while left < right:
-
-        # ----------------------------------------------------
-        # Case 1:
-        # The left wall is smaller than the right wall.
-        #
-        # This means the left side is the limiting side,
-        # so we process height[left].
-        # ----------------------------------------------------
         if height[left] < height[right]:
-
-            # If current left wall is taller than left_max,
-            # update left_max.
-            #
-            # No water is trapped here because this is now
-            # the tallest wall seen from the left.
             if height[left] >= left_max:
                 left_max = height[left]
-
-            # Otherwise, current wall is lower than left_max.
-            #
-            # That means water can sit above this wall.
-            #
-            # Example:
-            #
-            # left_max = 2
-            # height[left] = 0
-            #
-            # water = 2 - 0 = 2
             else:
                 total_water += left_max - height[left]
-
-            # Move left pointer inward
             left += 1
-
-        # ----------------------------------------------------
-        # Case 2:
-        # The right wall is smaller or equal.
-        #
-        # This means the right side is the limiting side,
-        # so we process height[right].
-        # ----------------------------------------------------
         else:
-
-            # If current right wall is taller than right_max,
-            # update right_max.
-            #
-            # No water is trapped here because this is now
-            # the tallest wall seen from the right.
             if height[right] >= right_max:
                 right_max = height[right]
-
-            # Otherwise, current wall is lower than right_max.
-            #
-            # That means water can sit above this wall.
             else:
                 total_water += right_max - height[right]
-
-            # Move right pointer inward
             right -= 1
 
     return total_water
